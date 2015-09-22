@@ -156,6 +156,10 @@ Express](https://www.youtube.com/watch?v=E_zFM7mzFUg)"
 
 
 1. Von welcher Website wurde der SQL-Server heruntergeladen?
+	- von der Herstellerseite ("microsoft.com")
 2. Welche zwei Dateien mussten heruntergeladen werden?
+	- die Datenbank (für die richtige Architektur)
+	- das Management Tool
 3. Was ist das Hauptfeature der Datenbank?
+	- "Database Engine Services"
 
