@@ -1,0 +1,19 @@
+\usepackage[ngerman]{datetime}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{pgffor}
+
+\newdateformat{myformat}{\THEDAY{. }\monthnamengerman{}, \THEYEAR}
+
+\title{DBI1 Protokoll}
+\author{\include{priv/name}}
+\date{\myformat\today}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[L]{\color[rgb]{.5,.5,.5}{\input{priv/head}}}
+\fancyfoot[R]{\input{priv/name}}
+
+\setlength{\headheight}{30pt}
+
